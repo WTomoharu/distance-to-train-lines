@@ -1,0 +1,23 @@
+{
+  "name": "react-train-distance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tomoharu Watanabe <tomoharu.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^10.6.4"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "esbuild": "^0.14.11",
+    "esbuild-plugin-alias": "^0.2.1",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.2.0",
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "dev": "node build.js --watch --server",
+    "build": "node build.js"
+  }
+}
