@@ -17,6 +17,10 @@ esbuild.build({
   outbase: './src/pages',
   outdir: './dist',
 
+  loader: {
+    ".geojson": "json",
+  },
+
   bundle: true,
   minify: false,
   sourcemap: "inline",
