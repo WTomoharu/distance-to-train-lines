@@ -5,6 +5,7 @@
   "author": "Tomoharu Watanabe <tomoharu.dev@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@turf/turf": "^6.5.0",
     "preact": "^10.6.4"
   },
   "devDependencies": {
